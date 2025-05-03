@@ -8,13 +8,13 @@ $(function() {
     menu.style.display = "flex"; 
     openMenu.style.display = "none";
     closeMenu.style.display = "block";
-  }
+  };
 
 
   closeMenu.onclick = function() {
     menu.style.display = "none"; 
     openMenu.style.display = "block";
     closeMenu.style.display = "none";
-  }
+  };
    AOS.init();
 });
